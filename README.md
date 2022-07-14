@@ -69,8 +69,8 @@ the physical problems to be solved.
   iterations that will be carried out for the calculation of the final RGB
   values in the interest area.
 * Performance statistics thresholds: Defines the
-  thresholds for *Very good*, *Good*, *Satisfactory* and *Unsatisfactory
-  *performance for the statistics NNSE, KGE and PBIAS.
+  thresholds for *Very good*, *Good*, *Satisfactory* and *Unsatisfactory*
+  performance for the statistics NNSE, KGE and PBIAS.
 
 ### Model outputs
 
@@ -80,7 +80,7 @@ the physical problems to be solved.
   percentage of area from every model performance type defined in the
   Calculations section for the statistics NNSE, KGE and PBIAS.
 
-### Case study
+## Case study
 
 The information provided
 includes the necessary information to reproduce an example of the correlation
@@ -104,10 +104,10 @@ git push -uf origin main
 
 ## Authors
 
-- [@Pablo-Blanco](https://orcid.org/0000-0001-9465-2912)
-- [@Constant-Amuncio](https://www.vielca.com/)
-- [@Jose-Luis](https://orcid.org/0000-0001-6619-9057)
-- [@Jose](https://orcid.org/0000-0001-5648-214X)
+- [@Pablo Blanco-Gómez](https://orcid.org/0000-0001-9465-2912)
+- [@Constancio Amurrio-GarcíaConstant-Amuncio](https://www.vielca.com/)
+- [@Jose Luis Jimenez Garcia](https://orcid.org/0000-0001-6619-9057)
+- [@Jose M. Cecilia](https://orcid.org/0000-0001-5648-214X)
 
 ### Acknowledgments
 
