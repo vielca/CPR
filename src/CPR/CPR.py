@@ -432,6 +432,9 @@ class CPR:
                 for coefficient_green_cnt in coefficient_green_length:
                     
                     image = (coefficient_red_cnt * cpr_data_red_image_calibration_area) + (coefficient_green_cnt * cpr_data_green_image_calibration_area) + (coefficient_blue_cnt * cpr_data_blue_image_calibration_area)
+                    image = np.where(image <= 0, np.nan, image)
+                    image = np.ma.array(image, mask=np.isnan(image))
+                    cpr_data_raster_calibration_area = np.ma.array(cpr_data_raster_calibration_area, mask=np.isnan(cpr_data_raster_calibration_area))
                     diff_obj = np.square(image  - cpr_data_raster_calibration_area)
                     diff_obj = np.nansum(diff_obj)
 
@@ -475,6 +478,9 @@ class CPR:
                 for coefficient_green_cnt in coefficient_green_length:
                     
                     image = (coefficient_red_cnt * cpr_data_red_image_interest_area) + (coefficient_green_cnt * cpr_data_green_image_interest_area) + (coefficient_blue_cnt * cpr_data_blue_image_interest_area)
+                    image = np.where(image <= 0, np.nan, image)
+                    image = np.ma.array(image, mask=np.isnan(image))
+                    cpr_data_raster_interest_area = np.ma.array(cpr_data_raster_interest_area, mask=np.isnan(cpr_data_raster_interest_area))
                     diff_obj = np.square(image - cpr_data_raster_interest_area)
                     diff_obj = np.nansum(diff_obj)
 
