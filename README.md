@@ -97,7 +97,7 @@ area was selected as part of the H2020 SMARTLAGOON project (GA 101017861).
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/grupovielca/cpr-vielca-ingenieros.git
+git remote add origin https://github.com/vielca/CPR
 git branch -M main
 git push -uf origin main
 ```
@@ -105,7 +105,7 @@ git push -uf origin main
 ## Authors
 
 - [@Pablo Blanco-Gómez](https://orcid.org/0000-0001-9465-2912)
-- [@Constancio Amurrio-GarcíaConstant-Amuncio](https://www.vielca.com/)
+- [@Constancio Amurrio-García](https://www.vielca.com/)
 - [@Jose Luis Jimenez Garcia](https://orcid.org/0000-0001-6619-9057)
 - [@Jose M. Cecilia](https://orcid.org/0000-0001-5648-214X)
 
