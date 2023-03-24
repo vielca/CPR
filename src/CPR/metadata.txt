@@ -8,24 +8,24 @@ qgisMinimumVersion=3.0
 description=CPR (Colour Pattern Regression)
 version=0.1
 author=Vielca Ingenieros
-email=pep.j@vielca.com
+email=pep.j@vielca.com,pablo.b@vielca.com
 
 about=CPR (Colour Pattern Regression)
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/vielca/CPR/issues
+repository=https://github.com/vielca/CPR
 # End of mandatory metadata
 
 # Recommended items:
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog= v1.0.2 First official release version
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, interpolation, regression
 
-homepage=http://homepage
+homepage=https://www.vielca.com/
 category=Plugins
 icon=icon.png
 # experimental flag
@@ -40,8 +40,7 @@ deprecated=False
 # plugin_dependencies=
 
 Category of the plugin: Raster, Vector, Database or Web
-# category=
+#category=Raster
 
 # If the plugin can run on QGIS Server.
 server=False
-
