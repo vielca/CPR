@@ -10,7 +10,7 @@ version=0.1
 author=Vielca Ingenieros
 email=pep.j@vielca.com,pablo.b@vielca.com
 
-about=CPR (Colour Pattern Regression)
+about=The Colour Pattern Regression (CPR) algorithm complement for QGIS is presented for determining and quantifying the relationship between aerial images and raster maps. Aerial images can be readily decomposed into their standard RGB spaces that assign numerical values to their colours. According to them, a linear regression can be established to correlate raster values with the colour patterns, and if the model performance is considered satisfactory, the final result will provide a raster interpolation with finest resolution according to colour nuances within the aerial image. The CPR Algorithm allow both, the calculation of the regression coefficient and the evaluation of the goodness of fit of the model. The use of the CPR-QGIS plugin could enable the study of the relationships of aerial images and earth surface products – e.g. soil moisture content, landcover, vegetation and forests, soils, urban heat islands – or marine products – e.g. chlorophyll, total suspended solids. The tool is open source and ill be readily adapted with additional features and improved general performance ratings thresholds for the physical problems to be solved.The Colour Pattern Regression (CPR) algorithm complement for QGIS is presented for determining and quantifying the relationship between aerial images and raster maps. Aerial images can be readily decomposed into their standard RGB spaces that assign numerical values to their colours. According to them, a linear regression can be established to correlate raster values with the colour patterns, and if the model performance is considered satisfactory, the final result will provide a raster interpolation with finest resolution according to colour nuances within the aerial image. The CPR Algorithm allow both, the calculation of the regression coefficient and the evaluation of the goodness of fit of the model. The use of the CPR-QGIS complement could enable the study of the relationships of aerial images and earth surface products – e.g. soil moisture content, landcover, vegetation and forests, soils, urban heat islands – or marine products – e.g. chlorophyll, total suspended solids. The tool is open source and will be readily adapted with additional features and improved general performance ratings thresholds for the physical problems to be solved. Please read and cite the reference article: P. Blanco-Gómez, C. Amurrio-Garcia, J.L. Jiménez-García et al., CPR Algorithm—A new interpolation methodology and QGIS plugin for Colour Pattern Regression between aerial images and raster maps. SoftwareX (2023) 101356, https://doi.org/10.1016/j.softx.2023.101356.
 
 tracker=https://github.com/vielca/CPR/issues
 repository=https://github.com/vielca/CPR
@@ -25,7 +25,7 @@ changelog= v1.0.2 First official release version
 # Tags are comma separated with spaces allowed
 tags=python, interpolation, regression
 
-homepage=https://www.vielca.com/
+homepage=https://github.com/vielca/CPR
 category=Plugins
 icon=icon.png
 # experimental flag
@@ -44,3 +44,4 @@ Category of the plugin: Raster, Vector, Database or Web
 
 # If the plugin can run on QGIS Server.
 server=False
+
