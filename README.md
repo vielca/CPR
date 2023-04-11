@@ -118,3 +118,7 @@ Cajal Grant RYC2018-025580-I, funded by MCIN/AEI/ 10.13039/501100011033 and
 
 Moreover, authors acknowledge Vicente M. Candela Canales for supporting the
 R&D investment and programs within the Vielca companies.
+
+## Cite as
+
+P. Blanco-Gómez, C. Amurrio-Garcia, J.L. Jiménez-García et al., CPR Algorithm—A new interpolation methodology and QGIS plugin for Colour Pattern Regression between aerial images and raster maps. SoftwareX (2023) 101356, https://doi.org/10.1016/j.softx.2023.101356.
